@@ -1,7 +1,11 @@
 {
   "extends": "next/core-web-vitals",
+  "plugins": [
+    "align-import"
+  ],
   "ignorePatterns": ["**/*"],
   "rules": {
+    "align-import/align-import": 2,
     "comma-dangle": [2, "never"],
     "dot-notation": 2,
     "import/no-cycle": 2,
